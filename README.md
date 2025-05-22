@@ -1,61 +1,69 @@
 # Capgemini Training - HackerRank Solutions (Day 2)
 
-This directory contains Java solutions for Day 2 of the Capgemini Training HackerRank exercises. These problems focus on Java fundamentals such as operators, conditionals, loops, data types, string processing, and input handling.
+This directory contains Java solutions for Day 2 of the Capgemini Training HackerRank exercises. The focus is on loops, conditional statements, formatted output, exception handling, and working with dates.
 
 ## 🗂️ Files and Topics Covered
 
-### ✅ `Question1.java` – Operators
-- **Topic**: Arithmetic Operations, Type Casting  
-- **Description**: Calculates the total meal cost including tip and tax, then rounds and prints the result.
+### ✅ `Question1.java` – Formatted Output
+- **Topic**: Formatted Output, Loops  
+- **Description**:  
+  Prints three strings and integers in a formatted way using `printf`, aligning text and zero-padding numbers.
 
 ---
 
-### ✅ `Question2.java` – Conditional Statements
-- **Topic**: If-Else, Logical Operators  
-- **Description**: Checks whether a number is "Weird" or "Not Weird" based on specific conditions.
+### ✅ `Question2.java` – Multiplication Table
+- **Topic**: Loops, Arithmetic Operations  
+- **Description**:  
+  Prints the multiplication table for a given integer from 1 to 10.
 
 ---
 
-### ✅ `Question3.java` – Loops
-- **Topic**: Looping Constructs  
-- **Description**: Prints the multiplication table for a given number from 1 to 10.
+### ✅ `Question3.java` – Series Generation
+- **Topic**: Loops, Series, Math Operations  
+- **Description**:  
+  Generates and prints a series where each term adds powers of 2 multiplied by a number to a base value.
 
 ---
 
-### ✅ `Question4.java` – Data Types
-- **Topic**: Primitive Data Types  
-- **Description**: Identifies which primitive data types a given number can be stored in.
+### ✅ `Question4.java` – Data Type Fitting
+- **Topic**: Conditionals, Exception Handling  
+- **Description**:  
+  Determines which Java primitive data types can fit a given input number, handling exceptions for invalid input.
 
 ---
 
-### ✅ `Question5.java` – End-of-File (EOF)
-- **Topic**: Input Handling  
-- **Description**: Reads input until EOF and prints each line with its corresponding line number.
+### ✅ `Question5.java` – Reading Lines Until EOF
+- **Topic**: Input Handling, Loops  
+- **Description**:  
+  Reads lines until the end-of-file (EOF) and prints each line with its line number.
 
 ---
 
-### ✅ `Question6.java` – Static Initialization Block
+### ✅ `Question6.java` – Static Initializer and Input Validation
 - **Topic**: Static Blocks, Exception Handling  
-- **Description**: Validates dimensions of a parallelogram using a static block and throws an exception for invalid input.
+- **Description**:  
+  Uses a static initializer block to validate input dimensions and calculate area if inputs are positive; otherwise, prints an error.
 
 ---
 
-### ✅ `Question7.java` – Int to String Conversion
-- **Topic**: Type Conversion, Exception Handling  
-- **Description**: Converts an integer to a string and back to confirm successful type conversion.
+### ✅ `Question7.java` – Integer Parsing Validation
+- **Topic**: Exception Handling  
+- **Description**:  
+  Parses an integer input and prints "Good job" if successful or "Wrong answer" otherwise.
 
 ---
 
-### ✅ `Solution.java` – String Tokenization
-- **Topic**: String Manipulation, Regular Expressions  
-- **Description**: Splits a sentence into tokens using regex to separate words based on special characters. Handles edge cases like empty or whitespace-only input.
+### ✅ `Solution.java` (with `Result.findDay()`) – Day of the Week
+- **Topic**: Dates, Calendar  
+- **Description**:  
+  Calculates and returns the day of the week in uppercase letters for a given date.
 
 ---
 
 ## 📝 Notes
 
-- These exercises are part of the Capgemini Java training program on HackerRank.
-- The problems help reinforce key Java programming concepts.
+- These exercises focus on foundational programming skills including input/output formatting, control flow, exception handling, and basic date manipulation.
+- Mastery of these concepts prepares for more complex Java programming challenges.
 
 ## 👤 Author
 
